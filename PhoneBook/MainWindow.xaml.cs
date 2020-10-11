@@ -10,6 +10,9 @@ namespace PhoneBook
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// Коллекция номеров используемая в телефонной книге.
+        /// </summary>
         List<IPhoneBookItem> PhoneBookItems = new List<IPhoneBookItem>(); 
 
         

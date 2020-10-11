@@ -24,3 +24,5 @@ C:\Users\timva\source\repos\PhoneBook\PhoneBook\bin\Debug\MaterialDesignThemes.W
 C:\Users\timva\source\repos\PhoneBook\PhoneBook\bin\Debug\MaterialDesignColors.pdb
 C:\Users\timva\source\repos\PhoneBook\PhoneBook\bin\Debug\Newtonsoft.Json.dll
 C:\Users\timva\source\repos\PhoneBook\PhoneBook\bin\Debug\Newtonsoft.Json.xml
+C:\Users\timva\source\repos\PhoneBook\PhoneBook\obj\Debug\Window1.baml
+C:\Users\timva\source\repos\PhoneBook\PhoneBook\obj\Debug\Window1.g.cs
