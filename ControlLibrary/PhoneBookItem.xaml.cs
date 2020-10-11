@@ -5,10 +5,8 @@ namespace ControlLibrary
     /// <summary>
     /// Логика взаимодействия для PhoneBookItem.xaml
     /// </summary>
-    public partial class PhoneBookItem : UserControl
+    public partial class PhoneBookItem : UserControl, IPhoneBookItem
     {
-        //int Id { get; set; }
-        
         public string Title { get; set; }
 
         public string Phone { get; set; }
@@ -20,7 +18,12 @@ namespace ControlLibrary
         public PhoneBookItem()
         {
             InitializeComponent();
-            this.DataContext = this;
+            
         }
+
+        //void SavePhone(PhoneBookItem PhoneBookItem)
+        //{
+        //    File.WriteAllText("", JsonConvert.SerializeObject(PhoneBookItem));
+        //}
     }
 }

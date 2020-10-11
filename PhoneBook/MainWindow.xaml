@@ -28,12 +28,12 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" Content="Последние"/>
-                <Button Grid.Column="1" Content="Контакты"/>
+                <Button Grid.Column="0" Content="Последние" Foreground="White" Background="Black" BorderBrush="White" BorderThickness="0,0,0,1"/>
+                <Button Grid.Column="1" Content="Контакты" Background="Black" Foreground="White" BorderBrush="White" BorderThickness="0,0,0,1"/>
             </Grid>   
         </Grid>
 
-        <ListView x:Name="array" Background="Black" Grid.Row="1" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ListView x:Name="array" Background="Black" Grid.Row="1" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0">
             
         </ListView>
     </Grid>

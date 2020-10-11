@@ -63,6 +63,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Compile Include="IPhoneBookItem.cs" />
     <Compile Include="PhoneBookItem.xaml.cs">
       <DependentUpon>PhoneBookItem.xaml</DependentUpon>
     </Compile>
