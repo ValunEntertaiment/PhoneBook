@@ -6,9 +6,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhoneBook"
         
-        
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="300" WindowStyle="None" Background="Black">
+        Title="MainWindow" Height="600" Width="300" WindowStyle="None" Background="Black" x:Name="MyWindow">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -32,9 +31,10 @@
                 <Button Grid.Column="1" Content="Контакты" Background="Black" Foreground="White" BorderBrush="White" BorderThickness="0,0,0,1"/>
             </Grid>   
         </Grid>
+        <!--<TextBlock Grid.Row="1" Text="{Binding ElementName=MyWindow, Path=Height}" Foreground="White" Width="100"/>-->
+        <ListBox x:Name="array" DataContext="{Binding PhoneBookItems}" Background="Black" Grid.Row="1" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
 
-        <ListView x:Name="array" Background="Black" Grid.Row="1" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0">
-            
-        </ListView>
+        </ListBox>
+
     </Grid>
 </Window>
